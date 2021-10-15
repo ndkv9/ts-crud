@@ -6,10 +6,10 @@
   "scripts": {
     "tsc": "tsc",
     "lint": "eslint --ext .ts .",
-    "dev": "ts-node-dev index.ts"
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vu Nguyen",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
