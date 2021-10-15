@@ -26,7 +26,7 @@ const app = express()
 app.use(helmet())
 app.use(cors())
 app.use(express.json())
-app.use('/api/items', itemRouter)
+app.use('/api/menu/items', itemRouter)
 
 /**
  * Server Activation
